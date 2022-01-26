@@ -134,24 +134,39 @@ body {
     margin-right: 50px;
 }
 
+.header-link-mail::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../images/envelope\ \(hover\).svg);
+}
+
+.header-link-tel::before {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    outline: 1px solid tomato;
+    background-image: url(../images/Vector.svg);
+    }
+
 .header-link-tel:hover, .header-link:focus {
     color: var(--accent-color);
 }
 
 .slogan {
     background-color: #2F303A;
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: block;
-}
-
-.slogan-container {
-    background-color: #2F303A;
-    min-height: 600px;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
     background-image: linear-gradient (
         to right,
         rgba(47, 48, 58, 0.4)
@@ -160,11 +175,18 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.slogan-container {
+    
 }
 
 .slogan-title-container {
     max-width: 692px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slogan-title {
@@ -216,13 +238,24 @@ body {
     padding-top: 94px;
 }
 
-.our-advantages-subid {
+.our-advantages-id::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url(../images/Vector-2.svg);
+    background color: #F5F4FA;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+}
+
+.our-advantages-subid: {
     font-weight: normal;
     font-size: 14px;
     line-height: calc(24 / 14);
-    /* or 171% */
     letter-spacing: 0.03em;
     color: var(--subid-color);
+    
+
 }
 
 .what-we-do-list {
