@@ -153,7 +153,8 @@ body {
     margin-right: 10px;
     outline: 1px solid tomato;
     background-image: url(../images/Vector.svg);
-    }
+    
+}
 
 .header-link-tel:hover, .header-link:focus {
     color: var(--accent-color);
@@ -248,10 +249,27 @@ body {
     display: block;
     content: "";
     height: 120px;
-    background-image: url();
-    background color: #F5F4FA;
+    outline: 1px solid tomato;
+    background-color:#F5F4FA;
     border-radius: 4px;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.our-advantages-id:nth-child(1)::before {
+    background-image: url(../images/Vector1.svg);
+}
+
+.our-advantages-id:nth-child(2)::before {
+    background-image: url(../images/Vector2.svg
+}
+
+.our-advantages-id:nth-child(3)::before {
+    background-image: url(../images/Vector3.svg);
+}
+
+.our-advantages-id:nth-child(4)::before {
+    background-image: url(../images/Vector4.svg);
 }
 
 .our-advantages-subid: {
