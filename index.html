@@ -17,17 +17,18 @@
         <div class="container header-container">
             <nav class="nav1">
                 <a class="logo-left" href="WebStudio">Web <span class="logo-right">Studio</span></a>
-                <ul class="header-list">
-                    <li class="header-item">
-                        <a href="./index.html" class="header-link-studio current">Студия</a> 
-                    </li>
-                    <li class="header-item">
-                        <a href="./portfolio.html" class="header-link-portfolio">Портфолио</a> 
-                    </li>
-                    <li class="header-item">
-                        <a href="" class="header-link-contacts">Контакты</a> 
-                    </li>
-                </ul>
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a href="./index.html" class="header-link-studio current">Студия</a> 
+                            <span class="header-list-underline current"></span>
+                        </li>
+                        <li class="header-item">
+                            <a href="./portfolio.html" class="header-link-portfolio">Портфолио</a> 
+                        </li>
+                        <li class="header-item">
+                            <a href="" class="header-link-contacts">Контакты</a> 
+                        </li>
+                    </ul>
             </nav>
             <ul class="header-list-mail-tel">
                 <li class="header-link">
@@ -47,6 +48,11 @@
                     </a>
                 </li>
             </ul>
+            <div class="modal-background is-hidden"></div>
+            <div class="modal is-hidden">
+                <span class="modal">
+                </span>
+            </div>
         </div>
     </header>  
     <main>
@@ -102,17 +108,28 @@
         <section class="section what-we-do-pad">
             <div class="container">    
                 <h2 class="what-we-do-title">Чем мы занимаемся</h2>
-                <ul class="what-we-do-list">
-                    <li class="what-we-do-item">
-                        <img src="./images/img-1-2.jpg" class="what-we-do-photo" alt="человек работающий на клавиатуре компютера на счетло-коричневом столе" height="294" width="370">
-                    </li>
-                    <li class="what-we-do-item">
-                        <img src="./images/img-2-2.jpg" class="what-we-do-photo" alt="девушка за макбулом и айфоном в руке" height="294" width="370">
-                    </li>
-                    <li class="what-we-do-item">
-                        <img src="./images/img-3-2.jpg" class="what-we-do-photo" alt="мужчина с айпадом в руке" height="294" width="370">
-                    </li>
-                </ul>
+                <div class="what-we-do-overlay">
+                    <ul class="what-we-do-list">
+                        <li class="what-we-do-item">
+                            <img src="./images/img-1-2.jpg" class="what-we-do-photo" alt="человек работающий на клавиатуре компютера на счетло-коричневом столе" height="294" width="370">
+                            <div class="what-we-do-item-cover-desktop">
+                                <span class="what-we-do-item-subtitle">Десктопные приложения</span>
+                            </div>
+                        </li>
+                        <li class="what-we-do-item">
+                            <img src="./images/img-2-2.jpg" class="what-we-do-photo" alt="девушка за макбулом и айфоном в руке" height="294" width="370">
+                            <div class="what-we-do-item-cover-mobile">
+                                <span class="what-we-do-item-subtitle">Мобильные приложения</span>
+                            </div>
+                        </li>
+                        <li class="what-we-do-item">
+                            <img src="./images/img-3-2.jpg" class="what-we-do-photo" alt="мужчина с айпадом в руке" height="294" width="370">
+                            <div class="what-we-do-item-cover-design">
+                                <span class="what-we-do-item-subtitle">Дизайнерские решения</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="section our-team">
