@@ -109,8 +109,6 @@ a {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-
-    
 }
 
 .header-list {
@@ -131,7 +129,8 @@ a {
     transition: color 250ms linear;
 }
 
-.header-list-underline {
+.header-link-studio::after {
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -143,11 +142,16 @@ a {
     opacity: 0;
 }
 
-.header-list-underline-portfolio {
+.header-link-studio:hover:after {
+    opacity: 1;
+}
+
+.header-link-portfolio::after {
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 75px;
+    width: 78px;
     height: 4px;
     background: #2196F3;
     border-radius: 2px;
@@ -155,8 +159,12 @@ a {
     opacity: 0;
 }
 
+.header-link-portfolio:hover:after {
+    opacity: 1;
+}
+
 .current {
-    color: var(--accent-color);
+    color: var(--accent-color); 
     opacity: 1;
 }
 
