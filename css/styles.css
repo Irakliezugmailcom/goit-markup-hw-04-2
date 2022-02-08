@@ -81,16 +81,16 @@ a {
     margin-left: -7px;
 }
 
-.modal-background {
+/* .modal-background {
     position: absolute;
     width: 1600px;
     height: 1008px;
     left: 0px;
     top: 0px;
     background: rgba(0, 0, 0, 0.2);
-}
+} */
 
-.modal-background.is-hidden {
+/* .modal-background.is-hidden {
     opacity: 0;
     pointer-events: none;
 }
@@ -98,9 +98,9 @@ a {
 .modal.is-hidden {
     opacity: 0;
     pointer-events: none;
-}
+} */
 
-.modal {
+/* .modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -110,7 +110,7 @@ a {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-}
+} */
 
 .header-list {
     list-style-type: none;
@@ -364,7 +364,7 @@ a {
     margin-left: 30px;
 }
 
-.what-we-do-item-cover-desktop {
+/* .what-we-do-item-cover-desktop {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -374,30 +374,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 img {
     min-width: 100%;
     display: block;
     height: auto;
-}
-
-.what-we-do-item-cover-mobile {
-    position: absolute;
-    bottom: 0;
-    left: 400;
-    width: 370px;
-    height: 70px;
-    background: rgba(47, 48, 58, 0.8);
-}
-
-.what-we-do-item-cover-design {
-    position: absolute;
-    bottom: 0;
-    left: 800;
-    width: 370px;
-    height: 70px;
-    background: rgba(47, 48, 58, 0.8);
 }
 
 .what-we-do-item-subtitle {
@@ -736,10 +718,10 @@ img {
     border-radius: 4px;
 }
 
-.projects-overlay {
+/* .projects-overlay {
     position: relative;
     overflow: hidden;
-}
+} */
 
 .projects-list {
     display: flex;
@@ -761,12 +743,12 @@ img {
     transition: box-shadow 250ms var(--cubic);
 }
 
-.projects-link-cover {
+/* .projects-link-cover {
     position: relative;
     overflow: hidden;
-}
+} */
 
-.projects-link-text {
+/* .projects-link-text {
     top: 0;
     left: 0;
     width: 100%;
@@ -780,23 +762,23 @@ img {
     transition: transform 250ms var(--cubic);
     transform: translateY(100%);
     padding: 63px 24px;
-}
+} */
 
 .projects-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects-link:focus .projects-link-text {
+/* .projects-link:focus .projects-link-text {
     transform: translateY(0%);
-}
+} */
 
 .projects-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects-link:hover .projects-link-text {
+/* .projects-link:hover .projects-link-text {
     transform: translateY(0%);
-}
+} */
 
 .projects-item-pad {
     padding: 20px 24px;
